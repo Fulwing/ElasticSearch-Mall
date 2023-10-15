@@ -36,7 +36,7 @@ Feel free to reach out to me for questions or discussions. Happy learning and re
 This project includes a Java Jsoup crawler to simplify the process of obtaining real data from JD. Jsoup is a Java library for working with real-world HTML. To leverage the crawler, follow these steps:
 
 1. **Explore the Crawler Code:**
-   - Navigate to the [`CrawlerService`](src/main/java/com/fulwin/jd/CrawlerService.java) class in the source code.
+   - Navigate to the [`CrawlerService`](src/main/java/com/fulwin/jd/utils/HtmlParseUtil.java) class in the source code.
    - Review the methods to understand how data is fetched and processed.
 
 2. **Configure Crawler Settings:**
