@@ -40,7 +40,7 @@ This project includes a Java Jsoup crawler to simplify the process of obtaining 
    - Review the methods to understand how data is fetched and processed.
 
 2. **Configure Crawler Settings:**
-   - Adjust the crawler settings such as URL, timeout, or data extraction logic according to your requirements. These settings can be found in the crawler service implementation.
+   - Adjust the crawler settings if you need, such as URL, timeout, or data extraction logic according to your requirements. These settings can be found in the crawler service implementation.
 
 3. **Initiate Crawling:**
    - Call the `parseContent` method in the `ContentService` class with the desired keyword:
