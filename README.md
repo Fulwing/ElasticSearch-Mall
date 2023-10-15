@@ -42,14 +42,25 @@ GET http://localhost:your_port/parse/{keyword}
 
 This API will save the keywords to the index, with each call fetching 30 products.
 
-### Searching
+## Searching
 
-To perform a search, use the following API:
+To perform a search, you have two options:
 
-```java
-// Search for items with highlights
-GET http://localhost:your_port/search/{keyword}/{pageNo}/{pageSize}
-```
+1. **Search Bar on Index Page:**
+   - Navigate to [http://localhost:your_port/](http://localhost:your_port/) on your browser.
+   - Use the search bar available on the index page to enter your keywords.
+   - The search results will be displayed directly on the web page.
+
+2. **Search API:**
+   - Alternatively, you can use the following API for programmatic search:
+     ```java
+     // Search for items with highlights
+     GET http://localhost:your_port/search/{keyword}/{pageNo}/{pageSize}
+     ```
+   - Replace `{keyword}`, `{pageNo}`, and `{pageSize}` with your search parameters.
+   - This API returns the search results with highlights.
+
+Choose the method that best fits your needs—whether you prefer a user-friendly interface with the search bar on the index page or direct programmatic access using the API.
 
 This API retrieves item information with highlights enabled, providing users with a rich search experience.
 
