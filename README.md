@@ -20,7 +20,7 @@ If you discover new insights or improvements during your exploration, consider c
 
 ### Get Started
 
-1. **Clone the Repository:** `git clone [repository_url]`
+1. **Clone the Repository:** `https://github.com/Fulwing/ElasticSearch-Mall.git`
 2. **Install ElasticSearch:** Follow the installation instructions [here](https://www.elastic.co/downloads/elasticsearch).
 3. **Run the Project:** Start exploring ElasticSearch Mall and use it as a sandbox for your ElasticSearch learning journey.
 
