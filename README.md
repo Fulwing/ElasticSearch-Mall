@@ -31,7 +31,7 @@ Feel free to reach out to me for questions or discussions. Happy learning and re
 
 ## Usage
 
-## Using the Java Jsoup Crawler
+### Using the Java Jsoup Crawler
 
 This project includes a Java Jsoup crawler to simplify the process of obtaining real data from JD. Jsoup is a Java library for working with real-world HTML. To leverage the crawler, follow these steps:
 
@@ -56,7 +56,7 @@ By utilizing the Java Jsoup crawler, you can seamlessly integrate real data from
 
 This API will save the keywords to the index, with each call fetching 30 products.
 
-## Searching
+### Searching
 
 To perform a search, you have two options:
 
