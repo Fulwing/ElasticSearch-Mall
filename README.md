@@ -31,14 +31,28 @@ Feel free to reach out to me for questions or discussions. Happy learning and re
 
 ## Usage
 
-### Crawling Data
+## Using the Java Jsoup Crawler
 
-To populate your ElasticSearch index with real data from JD (Jingdong), use the following API:
+This project includes a Java Jsoup crawler to simplify the process of obtaining real data from JD. Jsoup is a Java library for working with real-world HTML. To leverage the crawler, follow these steps:
 
-```java
-// Save keywords to the index
-GET http://localhost:your_port/parse/{keyword}
-```
+1. **Explore the Crawler Code:**
+   - Navigate to the [`CrawlerService`](path/to/CrawlerService.java) class in the source code.
+   - Review the methods to understand how data is fetched and processed.
+
+2. **Configure Crawler Settings:**
+   - Adjust the crawler settings such as URL, timeout, or data extraction logic according to your requirements. These settings can be found in the crawler service implementation.
+
+3. **Initiate Crawling:**
+   - Call the `parseContent` method in the `ContentService` class with the desired keyword:
+     ```java
+     GET http://localhost:your_port/parse/{keyword}
+     ```
+     This will trigger the crawler to fetch real data from JD based on the specified keyword.
+
+4. **Customize Data Processing:**
+   - If needed, modify the data processing logic in the crawler service to suit your specific use case.
+
+By utilizing the Java Jsoup crawler, you can seamlessly integrate real data from JD into your ElasticSearch index. Feel free to explore and customize the crawler to meet your project's requirements.
 
 This API will save the keywords to the index, with each call fetching 30 products.
 
