@@ -1,6 +1,6 @@
 # ElasticSearch Mall
 
-Welcome to ElasticSearch Mall, a powerful search engine inspired by a famous Chinese e-commerce website. This project uses ElasticSearch as the search engine, with a Spring Boot backend and Vue.js frontend. The search functionality is enhanced with highlighting, and the entire system is monitored using Kibana.
+Welcome to ElasticSearch Mall, mimic a famous Chinese e-commerce website. This project uses ElasticSearch as the search engine, with a Spring Boot backend and Vue.js frontend. The search functionality is enhanced with highlighting, and the entire system is monitored using Kibana.
 
 ## Learning and Research
 
